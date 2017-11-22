@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=" utf-8=""><title>Google Maps JavaScript API v3 Example: Marker Animations</title>
+  
+
+  
+  
+  <link href="/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+
+  
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  
+  <script>
+      var centerPoint = new google.maps.LatLng(25.132658,121.739281);
+      var marker=null;
+      var map;
+      var Title;
+      var infowindow;
+      function mark(lat, log){//&#27161;&#35387;&#24231;&#27161;&#20989;&#24335;
+        var m = new google.maps.LatLng(lat, log);
+        if(marker==null){
+       	 marker = new google.maps.Marker({
+        	  map:map,
+          	//draggable:true,
+          	position: m,
+          	title:Title//當滑鼠移至Marker上時，要顯示的Title文字
+        	});    
+          	marker.setMap(map);
+          	infowindow = new google.maps.InfoWindow();    //初始一個物件   //座標
+          google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+          });
+		}else{
+			marker.setPosition(m);
+		}
+       	 infowindow.setContent(Title);    //InfoWindow的內容，可用Html語法
+         infowindow.setPosition(m); 
+      }
+
+     function many_mark(lat, log,ic){//&#27161;&#35387;&#24231;&#27161;&#20989;&#24335;
+        var m = new google.maps.LatLng(lat, log);
+        var mmarker = new google.maps.Marker({
+          map:map,
+          position: m,
+          title:Title//當滑鼠移至Marker上時，要顯示的Title文字
+        });    
+          mmarker.setMap(map);
+          var minfowindow = new google.maps.InfoWindow();    //初始一個物件
+          minfowindow.setContent(Title);    //InfoWindow的內容，可用Html語法
+          minfowindow.setPosition(m);  
+          google.maps.event.addListener(mmarker, 'click', function() {
+            minfowindow.open(map, mmarker);
+          }); 
+      }
+	function ma_initialize() {
+         map.setZoom(12)
+         map.panTo(centerPoint);
+      }
+
+      function getTitle(ti){
+        Title=ti;
+      }
+      function initialize() {
+        var mapOptions = {
+          zoom:15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: centerPoint
+        };
+
+        map = new google.maps.Map(document.getElementById('map_canvas'),
+                mapOptions);
+
+      }
+     
+      function centerAt(latitude, longitude){//&#22320;&#22294;&#20197;&#32102;&#20104;&#30340;&#24231;&#27161;&#28858;&#20013;&#24515;&#65292;&#21363;&#31227;&#21205;&#22320;&#22294;&#33267;&#32102;&#23450;&#30340;&#24231;&#27161;
+          var myLatlng = new google.maps.LatLng(latitude, longitude);
+          map.panTo(myLatlng);
+      }   
+
+    </script></head><body onload="initialize()">
+<div id="map_canvas" style="height: 460px;"><big style="color: rgb(51, 51, 255); font-weight: bold;"><big>&#24744;&#23578;&#26410;&#36899;&#25509;&#21040;&#32178;&#36335;&#65292;&#25925;&#28961;&#27861;&#39023;&#31034;&#22320;&#22294;&#12290;</big></big>
+<div id="task1-1">
+<ul>
+  <li>&#35531;&#27298;&#26597;&#24744;&#30340;&#32178;&#36335;&#26159;&#21542;&#24050;&#36899;&#25509;&#12290;</li>
+</ul>
+</div>
+</div>
+
+</body></html>

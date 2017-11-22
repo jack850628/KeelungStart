@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keelungstart"
+    android:versionCode="1"
+    android:versionName="@string/version" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+      <permission
+        android:name="idv.ron.mapex.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="idv.ron.mapex.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+   
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!--android:largeHeap="true"擴增Heap用-->
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@drawable/ks"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB5qlFoN2tQE0ngNuGZj5lz9i_iQCsNaAE" />
+        <activity
+            android:name="com.example.keelungstart.Start"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Attractions"
+               android:configChanges="keyboard|keyboardHidden|orientation|screenSize" ></activity>
+        <activity android:name="About"></activity>
+        <activity android:name="Arrangement"></activity>
+        <activity android:name="Gourmet"
+               android:configChanges="keyboard|keyboardHidden|orientation|screenSize" ></activity>
+        <activity android:name="GPSArrangement"></activity>
+        <activity android:name="Map"></activity>
+        <activity android:name="Cave"></activity>
+        <activity android:name="Tyan"></activity>
+        <activity android:name="Baimiwong"></activity>
+        <activity android:name="Cvb"></activity>
+        <activity android:name="seadoors"></activity>
+        <activity android:name="peaceislands"></activity>
+        <activity android:name="heroiccavern"></activity>
+        <activity android:name="serveysecluded"></activity>
+        <activity android:name="externalwoodmountain"></activity>
+        <activity android:name="seamuseum"></activity>
+        <activity android:name="lonkon"></activity>
+        <activity android:name="daworom"></activity>
+        <activity android:name="chenlanhow"></activity>
+        <activity android:name="yellowduck"></activity>
+        <activity android:name="Gtksu"></activity>
+        <activity android:name="Gogo"></activity>
+        <activity android:name="SonJonStep"></activity>
+        <activity android:name="MiGonYiStep"></activity>
+        <activity android:name="DonAndStep"></activity>
+        <activity android:name="ChenConStep"></activity>
+        <activity android:name="ChenAnStep"></activity>
+        <activity android:name="Fthn"></activity>
+        <activity android:name="Kegjn"></activity>
+        <activity android:name="Sfgt"></activity>
+        <activity android:name="Sfgt2"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"></activity>
+        <activity android:name="Sfgtdet"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Gz"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Ftsf"></activity>
+        <activity android:name="Tsfgt"></activity>
+        <activity android:name="Tsfgt2"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"></activity>
+        <activity android:name="Tsfgtdet"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Tgz"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Tftsf"></activity>
+        <activity android:name="Gte"></activity>
+        <activity android:name="Lugf"></activity>
+        <activity android:name="Lugf2"></activity>
+        <activity android:name="Lugfgd"></activity>
+        <activity android:name="Lugfview"></activity>
+        <activity android:name="Lugfitem"></activity>
+        <activity android:name="Hgku"></activity>
+        <activity android:name="Textsize"></activity>
+        <activity android:name="Music"></activity>
+        <activity android:name="Nmfc"></activity>
+        <activity android:name="Jtgs"></activity>
+        <activity android:name="Gng"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Busview"></activity>
+        <activity android:name="Bus"></activity>
+        <activity android:name="Bus101"></activity>
+        <activity android:name="Gt"></activity>
+        <activity android:name="Ghth"></activity>
+        <activity android:name="Gnch"></activity>
+        <activity android:name="Home"></activity>
+        <activity android:name="Search"></activity>
+        <activity android:name="Search2"></activity>
+        <activity android:name="Backup"
+            android:configChanges="orientation|screenSize"></activity>
+    </application>
+
+</manifest>

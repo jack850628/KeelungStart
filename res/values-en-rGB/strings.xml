@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Keelung Start!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Keelung Travel Start!</string>
+    
+    <string name="home">Home</string>
+    <string name="gps">GPS location....</string>
+    <string name="gps2">Your GPS places :(</string>
+    <string name="gps3">Now location</string>
+    <string name="gps4">GPS location complete</string>
+    <string name="gps5">Your GPS no open!!</string>
+    <string name="gps6">Your GPS has been opened</string>
+    <string name="gps7">latitude：</string>
+    <string name="gps8">longitude：</string>
+    <string name="gps9">Distance goal( Straight line )：</string>
+    <string name="gps10">Reach their destinations</string>
+    <string name="gtgs">Traffic Information</string>
+    <string name="kg">【Drive themselves】</string>
+    <string name="tg">【Bus】</string>
+    <string name="gnch">您可以選擇您要插入的景點。</string>
+    <string name="gnch2">單一景點</string>
+    <string name="hz">插入</string>
+    <string name="br">Back</string>
+    <string name="go">您可以輸入你要前往的地名(例如:泰安瀑布),或者是經緯度做標(例如:25.0715,121.7164)</string>
+    <string name="gte">請輸入距離</string>
+    <string name="gte1">您可以選擇附近景點的收尋範圍</string>
+    <string name="gte2">您可以選擇附近停車場的收尋範圍</string>
+    <string name="gte3">您可以選擇行程景點到達之判定範圍</string>
+    <string name="gte4">警告：距離值大於100公尺可能會有誤差問題！</string>
+    <string name="m">Meter</string>
+    <string name="k">Kilometer</string>
+    <string name="ok">complete</string>
+    <string name="sfgt">Save</string>
+    <string name="sfgt1">取消</string>
+    <string name="sfgt2">Cancel</string>
+    <string name="sfgt3">choose photo</string>
+    <string name="sfgt4">Remove photo</string>
+    <string name="sfgt5">Heading</string>
+    <string name="sfgt6">GPS places</string>
+    <string name="sfgt7">to obtain GPS places</string>
+    <string name="sfgt8">Content</string>
+    <string name="sfgt9">Subtitle</string>
+    <string name="sfgt10">Traffic Information</string>
+    <string name="sfgt11">Delete</string>
+    <string name="sfgt12">Self built attractions</string>
+    <string name="sfgt13">Unnamed</string>
+    <string name="sfgt14">確定要刪除?</string>
+    <string name="gz">Establish</string>
+    <string name="nosfgt">您沒有私房景點</string>
+    <string name="fgsfgt">附近的私房景點</string>
+    <string name="lugf">Starting:</string>
+    <string name="lugf1">您可以選擇您起點位置</string>
+    <string name="lugf2">"End:</string>
+    <string name="lugf3">"您可以選擇您終點位置</string>
+    <string name="lugf4">Planning</string>
+    <string name="lugf5">您尚未規畫行程</string>
+    <string name="lugf6">已經加入至行程!!</string>
+    <string name="lugf7">行程</string>
+    <string name="lugf8">GPS尚未定位完成，故無法規畫行程!!</string>
+    <string name="lugf9">您沒有私房景點!!</string>
+    <string name="lugf10">請問您是要</string>
+    <string name="lugf11">前往</string>
+    <string name="lugf12">請問您是將</string>
+    <string name="lugf13">移動到</string>
+    <string name="lugf14">的</string>
+    <string name="lugf15">上方</string>
+    <string name="lugf16">下方</string>
+    <string name="lugf17">Move</string>
+    <string name="lugf18">您確定要把</string>
+    <string name="lugf19">從行程中</string>
+    <string name="lugf20">Cancel move</string>
+    <string name="lugf21">請點選你要移動至的位置</string>
+    <string name="lugf22">請問您是要插入在</string>
+    <string name="lugf23">請問您是要在</string>
+    <string name="lugf24">確定要清空行程?</string>
+    <string name="mu">您可以選擇是否開啟音效</string>
+    <string name="nmfc">您可以調整螢幕方向</string>
+    <string name="nmfc1">您可以調整螢幕背光</string>
+    <string name="search">請輸入搜尋內容</string>
+    <string name="search1">無搜尋結果</string>
+    <string name="search2">Search</string>
+    <string name="text">您可以自訂字體大小</string>
+    <string name="menu">導航到此</string>
+    <string name="menu1">Internet search</string>
+    <string name="menu2">Internet連結</string>
+    <string name="menu3">Editor</string>
+    <string name="menu4">Calculator</string>
+    <string name="menu5">加入至行程</string>
+    <string name="menu7">規劃行程</string>
+    <string name="menu8">清空行程</string>
+    <string name="menu9">Parking Management Office</string>
+    <string name="about">About</string>
+    <string name="set">Setting</string>
+    <string name="att">Parking</string>
+    <string name="gt">Attractions</string>
+    <string name="setatt">自訂停車場</string>
+    <string name="nosetatt">您沒有自訂停車場</string>
+    <string name="fgatt">附近停車場</string>
+    <string name="fggt">附近景點</string>
+    <string name="fgsetatt">附近的自訂停車場</string>
+    <string name="gzfgsetatt">建立自訂停車場</string>
+    <string name="nfg">Your nearby</string>
+    <string name="mno">公尺沒有</string>
+    <string name="kno">公里沒有</string>
+    <string name="no">沒有</string>
+    <string name="ca">Sure</string>
+    <string name="opcam">開啟相機</string>
+    <string name="bre">再按一次返回鍵即可退出程式</string>
+    <string name="con">Sure</string>
+    <string name="con1">You sure want to leave?</string>
+    <string name="sta">start</string>
+    <string name="end">End</string>
+    <string name="end2">Exit</string>
+    <string name="st">Setting</string>
+    
+    
+<string-array name="cam">
+        <item>很抱歉，相片讀取錯誤!</item>
+        <item>您所使用的相機可能不支援此程式。\n您可以選擇\"開啟相機\"拍照，在按\"選取相片\"從相簿中挑選相片。</item>
+    </string-array>
+    
+<string-array name="lugf8">
+        <item>您已經有行程!</item>
+        <item>確定要重新規劃行程?</item>
+    </string-array>
+    
+<string-array name="gtestring">
+        <item>半徑300公尺</item>
+        <item>半徑500公尺</item>
+        <item>半徑800公尺</item>
+        <item>半徑1公里</item>
+        <item>自訂</item>
+    </string-array>
+    
+<string-array name="gtestring2">
+        <item>半徑10公尺</item>
+        <item>半徑50公尺</item>
+        <item>半徑100公尺</item>
+        <item>半徑150公尺</item>
+        <item>自訂</item>
+    </string-array>
+    
+<string-array name="gtetext">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Big</item>
+        <item>Extra large</item>
+    </string-array>
+    
+<string-array name="music">
+        <item>開啟</item>
+        <item>關閉</item>
+    </string-array>
+    
+<string-array name="nmfc">
+        <item>Auto</item>
+        <item>直向</item>
+        <item>橫向</item>
+    </string-array>
+    
+<string-array name="nmfc2">
+        <item>Default</item>
+        <item>恆亮</item>
+    </string-array>
+    
+<string-array name="jtgs">
+        <item>Keelung bus</item>
+        <item>Taiwan Railways</item>
+    </string-array>
+
+<string-array name="bus">
+        <item>101 和平島-基隆車站(經中正路)</item>
+    </string-array>
+
+<string-array name="bus101">
+        <item>和平島總站</item>
+        <item>阿拉寶灣站</item>
+        <item>和平國小站</item>
+        <item>和平島公園站</item>
+        <item>和平島站</item>
+        <item>協同造船廠站</item>
+        <item>社寮里站</item>
+        <item>和平橋站</item>
+        <item>正濱路站</item>
+        <item>中正區公所站</item>
+        <item>二信分社站</item>
+        <item>中濱里站</item>
+        <item>海調處站</item>
+        <item>公教國宅站</item>
+        <item>正榮街口(安瀾橋)站</item>
+        <item>公車處(榮民中心)站</item>
+        <item>海門天險</item>
+        <item>復興路</item>
+        <item>修理廠(統一球館)</item>
+        <item>中船路</item>
+        <item>就業中心(三砂灣)</item>
+        <item>信七路口</item>
+        <item>信五路口</item>
+        <item>市政府</item>
+        <item>仁二路(二信循環站)</item>
+        <item>總站</item>
+    </string-array>
+
+<string-array name="gtegt">
+        <item>無</item>
+        <item>現在位置</item>
+        <item>*私房景點*</item>
+ <item>Tai’an Waterfall</item>
+        <item>Fairy Cave</item>
+        <item>Baimiweng Fort(Holland Castle)</item>
+        <item>Ershawan Fort (Haimen Tianxian)</item>
+        <item>Waimu Shan Seashore)</item>
+        <item>Heping Island Park</item>
+        <item>十八羅漢洞</item>
+        <item>望憂谷</item>
+        <item>National Museum of Marine Science and Technology (NMMST)</item>
+        <item>Lung-Kang Trail</item>
+        <item>Lovers Lake Park</item>
+        <item>Dawulun Fort</item>
+        <item>Zhongzheng Park</item>
+        <item>Harbor Ocean Plaza</item>
+        <item>Keelung Islet</item>
+        <item>Keelung Miaokou Eateries</item>
+        <item>Lovers Lake Coastal Boulevard</item>
+        <item>Fumin Water Park</item>
+        <item>Nuandong Valley</item>
+        <item>Chenghuang Temple</item>
+        <item>Qing an Temple</item>
+        <item>Lingquan Buddhist Temple on Yuemei Mountain</item>
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>E Tai Enterprise Bathroom Product Tourist Factory</item>
+        <item>Liu Ming-Chuan Tunnel</item>
+        <item>Monument of Prince Kitashirakawa-no-miya Yoshihisa</item>
+        <item>TZU SANG  HSU Historic home</item>
+        <item>China-French War Memorial Tablet</item>
+        <item>Keelung Harbor Memorial</item>
+        <item>Sino-French War Memorial Park</item>
+        <item>The Buddha Hand Cave</item>
+        <item>頂石閣砲臺(中正區)</item>
+        <item>Badouzi Park</item>
+        <item>Nuannuan Water Park</item>
+        <item>Yizheng Park</item>
+        <item>Nuannuan Sports Park</item>
+        <item>Baifu Sports Park (Baifu Young Lohas Club)</item>
+        <item>Nuandong Nursery Garden</item>
+        <item>Jinlong Lake</item>
+        <item>Huzi Mountain Trail</item>
+        <item>Hongdan Mountain Trail</item>
+        <item>Jiangzihliao Mountain Trail</item>
+        <item>Yongjia Scenic Trail (Red Dragon Mountain)</item>
+        <item>Liudu Risk Canal Trail</item>
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>Stanly-Glass Technology Center</item>
+        <item>Qidu Station Railway Park</item>
+        <item>Ye-Shan Herbal Garden Recreational Farm</item>
+        <item>Tian-Cai Recreational Farm</item>
+        <item>Wen-liang Recreational Farm</item>
+        <item>Longshun Tourist Orchard</item>
+        <item>Linglan Eco Farm</item>
+        <item>Tiansian Temple, Heping Island</item>
+        <item>The Official Road of Hundred Years of Fude Temple</item>
+    </string-array>
+    
+<string-array name="gtegt2">
+        <item>Tai’an Waterfall</item>
+        <item>Fairy Cave</item>
+        <item>Baimiweng Fort(Holland Castle)</item>
+        <item>Ershawan Fort (Haimen Tianxian)</item>
+        <item>Waimu Shan Seashore)</item>
+        <item>Heping Island Park</item>
+        <item>十八羅漢洞</item>
+        <item>望憂谷</item>
+        <item>National Museum of Marine Science and Technology (NMMST)</item>
+        <item>Lung-Kang Trail</item>
+        <item>Lovers Lake Park</item>
+        <item>Dawulun Fort</item>
+        <item>Zhongzheng Park</item>
+        <item>Harbor Ocean Plaza</item>
+        <item>Keelung Islet</item>
+        <item>Keelung Miaokou Eateries</item>
+        <item>Lovers Lake Coastal Boulevard</item>
+        <item>Fumin Water Park</item>
+        <item>Nuandong Valley</item>
+        <item>Chenghuang Temple</item>
+        <item>Qing an Temple</item>
+        <item>Lingquan Buddhist Temple on Yuemei Mountain</item>
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>E Tai Enterprise Bathroom Product Tourist Factory</item>
+        <item>Liu Ming-Chuan Tunnel</item>
+        <item>Monument of Prince Kitashirakawa-no-miya Yoshihisa</item>
+        <item>TZU SANG  HSU Historic home</item>
+        <item>China-French War Memorial Tablet</item>
+        <item>Keelung Harbor Memorial</item>
+        <item>Sino-French War Memorial Park</item>
+        <item>The Buddha Hand Cave</item>
+        <item>頂石閣砲臺(中正區)</item>
+        <item>Badouzi Park</item>
+        <item>Nuannuan Water Park</item>
+        <item>Yizheng Park</item>
+        <item>Nuannuan Sports Park</item>
+        <item>Baifu Sports Park (Baifu Young Lohas Club)</item>
+        <item>Nuandong Nursery Garden</item>
+        <item>Jinlong Lake</item>
+        <item>Huzi Mountain Trail</item>
+        <item>Hongdan Mountain Trail</item>
+        <item>Jiangzihliao Mountain Trail</item>
+        <item>Yongjia Scenic Trail (Red Dragon Mountain)</item>
+        <item>Liudu Risk Canal Trail</item>
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>Stanly-Glass Technology Center</item>
+        <item>Qidu Station Railway Park</item>
+        <item>Ye-Shan Herbal Garden Recreational Farm</item>
+        <item>Tian-Cai Recreational Farm</item>
+        <item>Wen-liang Recreational Farm</item>
+        <item>Longshun Tourist Orchard</item>
+        <item>Linglan Eco Farm</item>
+        <item>Tiansian Temple, Heping Island</item>
+        <item>The Official Road of Hundred Years of Fude Temple</item>
+        <item>*私房景點*</item>
+    </string-array>
+    
+<string-array name="gtent">
+         <item>Tai’an Waterfall</item>
+        <item>Fairy Cave</item>
+        <item>Baimiweng Fort(Holland Castle)</item>
+        <item>Ershawan Fort (Haimen Tianxian)</item>
+        <item>Waimu Shan Seashore)</item>
+        <item>Heping Island Park</item>
+        <item>十八羅漢洞</item>
+        <item>望憂谷</item>
+        <item>National Museum of Marine Science and Technology (NMMST)</item>
+        <item>Lung-Kang Trail</item>
+        <item>Lovers Lake Park</item>
+        <item>Dawulun Fort</item>
+        <item>Zhongzheng Park</item>
+        <item>Harbor Ocean Plaza</item>
+        <item>Keelung Islet</item>
+        <item>Keelung Miaokou Eateries</item>
+        <item>Lovers Lake Coastal Boulevard</item>
+        <item>Fumin Water Park</item>
+        <item>Nuandong Valley</item>
+        <item>Chenghuang Temple</item>
+        <item>Qing an Temple</item>
+        <item>Lingquan Buddhist Temple on Yuemei Mountain</item>
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>E Tai Enterprise Bathroom Product Tourist Factory</item>
+        <item>Liu Ming-Chuan Tunnel</item>
+        <item>Monument of Prince Kitashirakawa-no-miya Yoshihisa</item>
+        <item>TZU SANG  HSU Historic home</item>
+        <item>China-French War Memorial Tablet</item>
+        <item>Keelung Harbor Memorial</item>
+        <item>Sino-French War Memorial Park</item>
+        <item>The Buddha Hand Cave</item>
+        <item>頂石閣砲臺(中正區)</item>
+        <item>Badouzi Park</item>
+        <item>Nuannuan Water Park</item>
+        <item>Yizheng Park</item>
+        <item>Nuannuan Sports Park</item>
+        <item>Baifu Sports Park (Baifu Young Lohas Club)</item>
+        <item>Nuandong Nursery Garden</item>
+        <item>Jinlong Lake</item>
+        <item>Huzi Mountain Trail</item>
+        <item>Hongdan Mountain Trail</item>
+        <item>Jiangzihliao Mountain Trail</item>
+        <item>Yongjia Scenic Trail (Red Dragon Mountain)</item>
+        <item>Liudu Risk Canal Trail</item>
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>Stanly-Glass Technology Center</item>
+        <item>Qidu Station Railway Park</item>
+        <item>Ye-Shan Herbal Garden Recreational Farm</item>
+        <item>Tian-Cai Recreational Farm</item>
+        <item>Wen-liang Recreational Farm</item>
+        <item>Longshun Tourist Orchard</item>
+        <item>Linglan Eco Farm</item>
+        <item>Tiansian Temple, Heping Island</item>
+        <item>The Official Road of Hundred Years of Fude Temple</item>
+    </string-array>
+    
+    
+    <string-array name="list_name">
+        <item>尚瓚停車場 </item>
+        <item>廟公有博愛停車場</item>
+        <item>嘟嘟房東岸停車場</item>
+        <item>嘟嘟房基隆成功站</item>
+        <item>基隆信二站</item>
+        <item>中正公園停車場</item>
+        <item>南榮殯葬所停車場</item>
+        <item>四期二標停車場</item>
+        <item>連通-基隆樂立場停車場</item>
+        <item>文化社區停車場</item>
+        <item>嘟嘟房-和平島停車場</item>
+        <item>大武崙砲台停車場</item>
+        <item>情人湖停車場</item>
+        <item>開元立體停車場</item>
+        <item>碧矽海洋悠遊館停車場</item>
+        <item>七堵車站停車場</item>
+        <item>陽明海運地下停車場</item>
+        <item>碧砂漁港停車場</item>
+        <item>大武崙漁港停車場</item>
+        <item>海科館區域探索館停車場</item>
+        <item>暖東峽谷停車停車場</item>
+        <item>海科館劇場停車場</item>
+        <item>百福水樣樂活會館停車場</item>
+        <item>潮境公園停車場</item>
+    </string-array>
+    
+    <string-array name="arrangement">
+        <item>GPS</item>
+        <item>景點&#038;停車場&#038;行程範圍</item>
+        <item>備份&#038;還原</item>
+        <item>字體大小</item>
+        <item>音效</item>
+        <item>螢幕</item>
+        <item>關於</item>
+    </string-array>
+    
+    <string-array name="gt1">
+        <item>Tai’an Waterfall</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tai’an Waterfall is set in the heart of Caolan Mountain in Qidu. This fall is also known as Caolan Mountain Waterfall, creating a beautiful sight as it cascades down the cliff. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The forest in the mountain area is well-preserved as it is head water protection forest. A tiny fall pours down from mossy rocks and forms a green pond with fishes swimming.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Next to the waterfall are the picnic area and barbecues area for visitors to enjoy themselves. In summer, visitors can enjoy the cold water. On one hand, you can walk up the mountain footpath near the waterfall to immerse you are in the forest. As the forest is located in the inland, mountains protect it from the influence of monsoon, making it beautiful and pleasing all year round. In the hinterland of Keelung, the district is less affected by the northeast monsoon than other parts if the city and has a pleasant climate throughout the year. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;At the end of Tai’an Rd., Qidu Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>七堵往華興路直走即可。</item>
+        <item>Take Keelung bus 402 to Caojian bus stop; take the South Qidu underground path and follow Tai’an Rd; it’s about 30 minutes by foot.</item>
+    </string-array>
+    <string-array name="gt2">
+        <item>Fairy Cave</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Fairy Cave is situated in the mountain to the northwest of Keelung Harbor. Originally, it was an eroded hole. The cave was formed by ocean’s abrasion after hundreds of years. The over 80-meter marine cave is the biggest one in Keelung. This cave can be divided into two parts: the right cave and the left cave. The latter is wide and the former is deep. According to the literature written during the Japanese colonial period, one could stand in the cave to listen to the amazing echo of the wave. There are carvings of Buddha on the wall and much calligraphy carving from the Ching Dynasty. Beside, at the cave mouth stands a giantic sculpture of Buddha for people to worship. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Near by Zhongshan 4th Rd., and Ren’an St., Zhongshan Dist., Keelung City , Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 08:00~17:00</item>
+        <item>Drive down the Keelung Intercession of Super Highway and drive along Hsin-chung 1st Road, Zhoneshan 1st, 4th Road then turn to Zen-an Street</item>
+        <item>Please take Route 301 Bus Tai Pai Village Line to Deity Cave Stop. It takes about 3 minutes by walking. 。</item>
+    </string-array>
+    <string-array name="gt3">
+        <item>Baimiweng Fort(Holland Castle)</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Baimiwong emplacement is located in the northwest of Keelung harbor, safeguarding the harbor with the gun emplacement on the east shore. It was an important military base since the Ching dynasty. The rectangle-shaped gun emplacement facing the sea is comprised of three sections: barbette, control center and observation station. The control center is on the west of barbette and the observation station is on the right. Both places are great choices for visitors to overlook Keelung Harbor. The scenery is refreshing and beautiful; hence, it has become a popular sightseeing and leisure place for local residents. Find a nice summer evening to enjoy the lights on boats in the harbor, the bright stars and the breeze. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;At the end of Ln. 37, Guanghua Rd., Zhongshan Dist., Keelung City.</item>
+        <item>開車從北二高基隆端接港西聯外道路，左轉中山四路在太白社區左轉上山即可到達。</item>
+        <item>Take Keelung buses 301, 302, 0r 304 to Taibaizhuang bus stop; from there it’s 15 minutes by foot</item>
+    </string-array>
+    <string-array name="gt4">
+        <item>Ershawan Fort (Haimen Tianxian)</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ershawan Fort is also named "Haimen Tiansian", Ershawan Fort is located on the top of Ershawan Mountain near the east harbor of Keelung. Following by the traditional construction method to build city gate, the front door of the platform was built by stones along the mountain, which is very splendid. Above the gate is a tablet that shows "Haimen Tiansian", which means very dangerous gate to the ocean. The strategic value of the fort explains why it was chosen to be a military base during the Ching dynasty. Visitors can view Keelung Harbor from the fort to feel its significance. The trees along the footpath around the fort make it a great choice for forest therapy. Birds and insects might greet you when you are visiting the historic site.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;海門天險為國家一級古蹟，位於中正公園、三沙灣及民族英雄墓附近。 \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664</item>
+        <item>下中山高基隆端，接中正高架道路至市政府，右轉信二路沿壽山路上山即可到達。</item>
+        <item>At the end of Shoushan Rd., Zhongzheng Dist. (Inside the Zhongzheng Park area)</item>
+    </string-array>
+    <string-array name="gt5">
+        <item>Waimu Shan Seashore</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Waimu Shan seashore is the longest natural seashore remained in Keelung City with a total of 5 kilometers from Waimu Shan Fishery Harbor to Aoditong Village. The seashore includes open seashore and marine cliff to make a spectacular scenery. Swimming facilities are available near Waimu Shan Fishery Harbor for experienced swimmers to go scuba diving and swimming. The beach near Aoditong Village is the only remaining sandy seashore in Keelung. In the summer, people often go to the beach and have fun swimming. For people who are afraid to swim in the sea, the nearby Octopus swimming pool is also a great choice for some fun.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Besides, one should never miss the beautiful sunrise in the summer. The incredible sight makes people feel carefree and joyous. The seashore and the reef rocks sculptured by the ocean over a long period of time are also a must-see.</item>
+        <item>路線一：可由中山高速公路北上基隆，從火車站接中山一、二路到文化路轉入進入外木山濱海。\n 路線二：可經由北二高北上基隆，下基金交流道後，左轉基金一路後至西濱公路右轉，往外木山方向進入，在自行車觀光步道旁停車場停車。\n 路線三：金山、萬里方向來的遊客可在基金公路左轉武聖街至大武崙漁港再沿海岸線至外木山澳海濱，或經由西濱公路左轉，往外木山方向進入，在自行車觀光步道旁停車場停車。</item>
+        <item>Take City Bus 302 and get off at Zhongshan Junior High School. Walk for a few minutes to the Beach.</item>
+    </string-array>
+    <string-array name="gt6">
+        <item>Heping Island Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Heping Island is originally named as “She-liao island”. Heping Island is the doorway to Keelung Harbor. It was a settlement of Kaitaglan Tribe at the early times. Currently, a seashore park was set up along with the coast. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Inside the park, one will see important terrain of marine abrasion, including marine cliff, abrasion platform and abrasion fosse as well as the famous “bean curd rock” and pedestal rock. Apart from the spectacular terrain, the body fossil and trace fossils are considered treasures for geological studies. Be sure to take a good look at the strand plants for it is amazing that they can survive under the unfavorable conditions. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;During the ebb, one can step on the abrasion platform to see the strand plants and all the different rocks and stones. Take a break to sit down on the rock to listen to the waves and enjoy the amazing gift of nature. However, please do not go down to the marine cliff for the rock otherwise that might break down at any moment.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.360, Ping 1st Rd., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;08:00~18:00 temporarily \n Tickets information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;an adult ticket is NT$60 temporarily</item>
+        <item>國道1號-基隆端交流道下-中正高架道路-中正路-正濱路-和一路-平一路。</item>
+        <item>Take Keelung bus 101 to Heping Island bus stop and walk to the park about 5 minutes.</item>
+    </string-array>
+    <string-array name="gt7">
+        <item>十八羅漢洞</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位於基隆市中正區三沙灣的雲龍山上，建於民國60年，外表看來普通，洞內面積卻廣達數千坪，並與海門天險和中正公園相連，形成一完整的風景面，站在洞前可俯視基隆全景。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;洞內岩壁上有各種神像和以發揚忠孝節義為主題的歷史人物塑像，如釋迦牟尼佛、目蓮、達摩等佛教人物，或孟嘗君、勾踐、花木蘭等人的歷史故事，可惜取材和立義雖佳，但技巧及規劃卻略遜一籌。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;在出口處上方崖壁，有一大水牛塑像，可容納20公噸的水，是別處見不到的景物，非常獨特。</item>
+        <item>路線一：沿濱海公路直行至中正路往海洋大學方向，見一天橋（橋下有一ＯＫ便利商店）左轉八斗街轉太社區的山頂上即可見十八羅漢洞。\n路線二：可由基隆交流道下，走「外港」的港西快速道路下，接中華路又轉文化路和復興路口，上山，約十分鐘可達。\n路線三：從基隆的交流道下高速公路，沿著中正路、信二路、壽山路等主要道路行駛，依照指標行駛，就可以到達。</item>
+        <item>路線一：自基隆市公車總站搭101線（和平島線）至終點站，再走沿平一路轉太社區的山頂上即可抵達。\n路線二：可由基隆市公車總站搭１０３望海巷線。\n路線三：從基隆車站搭乘206路公車，在三沙灣或修理廠站下車即可到達十八羅漢洞。</item>
+    </string-array>
+    <string-array name="gt8">
+        <item>望幽谷</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位在八斗子和長潭里之間間一個Ｖ型山谷，是一片翠綠谷地，長年皆綠草如茵、起伏有致，近看八斗子漁港、遠望海中的基隆嶼，令人看了忘卻許多的憂愁，故稱為忘憂。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;四周海灘寬約20公尺，海灘遍佈海蝕平臺、豆腐岩等地質景觀，中央有一平台式的坡地可容納三、四十人紮營。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;適合拾貝、捉蟹、游泳、戲潮.....等等，同時也是觀察海洋生物的天然教室。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;山上因缺乏可遮蔽的樹蔭，白天很少有人久留，但是到了夜晚、山坡成了欣賞漁火的好地點。</item>
+        <item>1.國道1號基隆交流道下→接港西快速道路(往濱海八斗子漁港方向)→經中華路→右轉文化路→至復興路口(八斗子漁港沿環山步道)→直行即可達望幽谷\n2.中山高八堵交流道下→接62快速道路(往瑞芳)→至瑞芳市區→接102縣道(往九份)方向續行→沿望幽谷指標直行→即可達望幽谷</item>
+        <item>搭乘基隆市公車103路至八斗子站下車→沿八斗街、環山路方向步行→即可達望幽谷</item>
+    </string-array>
+    <string-array name="gt9">
+        <item>National Museum of Marine Science and Technology (NMMST)</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NMMST is located on the east side of Keelung City-Badauzhi area. On the west wing of the museum, it is Badauzhi and Bisha fishing port; it connects to the Northeast Coast National Scenic Area which is a junction of Bihai Highway and Shen-ao Line operated by the Taiwan Raiway Administration. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In 1978, the Executive Yuan approved 12 major construction projects, and the NMMST was one of the central cultural facilities projects. It serves to promote the scientific knowledge of the general public.“Ocean”as the main theme, NMMST exhibits the relationship between the ocean and our daily life. Collections, exhibitions, educational programs and research of NMMST promote the general public’s understanding towards the development and application of related marine science and technology, development of marine culture in Taiwan, the ecology and revolutionary of marine life, and the relationship between the human beings and the ocean. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The facility includes a theme exhibition area, research and landscape facilities. The theme exhibition area includes: marine science and technology exhibition hall, aquarium, marine theater and etc. Currently, most of research and landscape facilities, such as Chaochin Marine Research Center, environmental protection and restoration park, Badauzhi Park, are completed and open to the visitors. All these completed facilities mentioned above are all integrated with the NMMST as a Coastal ecosystems experience the park. In addition, it is located at the main hall area; the original Ba Douzi Peninsula and land separation waterway will reopen, to reproduce the old Ba Douzi clean water lane style. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The future museum will have total of 10 exhibition halls. They are children’s hall, future hall, ship hall, deep ocean exhibition hall, science hall, deep ocean image hall, environment hall, marine products hall, cultural hall and discovery center.Each serves its own theme and exhibition.All will be officially operated in 2013. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224690731 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.367, Beining Rd., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Monday – Close \n Tuesday to Friday 9:00am to 5:00pm ,Saturday to Sunday 9:00am to 6:00pm</item>
+        <item>路線1→\n中山高速公路→基隆端→中正路→正豐街→祥豐街→北寧路→海洋大學→碧砂漁港→漁港一街左轉（新豐街過後靠左）→環港街右轉→漁港二街左轉→國立海洋科技博物館（區域停車場）。\n路線2→\n中山高速公路→大華系統交流道→（往瑞濱）台62線快速道路→台2線濱海公路左轉（往基隆）→深澳→北寧路（369巷過後靠右）→國立海洋科技博物館（海洋劇場停車場）。\n路線3→\n中山高速公路→大華系統交流道→（往瑞濱）台62線快速道路→（瑞芳過後靠右）八斗子匝道→調和街→北寧路（右轉過後靠左）→國立海洋科技博物館（海洋劇場停車場）。</item>
+        <item>Take Keelung city busy No. 103 toward Badauzhi. Take off on the bus stop of “Clear Water Lane.”</item>
+    </string-array>
+    <string-array name="gt10">
+        <item>Lung-Kang Trail</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The Lung-Kang Trail located at the mountain behind Marine University is a scenic place where the City Government has been trying to develop as a natural, scenic, and trekking and butterfly appreciating trail. It is 2 km length. Lung-Kang Trail has three entrances; one is next to the first restaurant stairs of Marine University, others are next to the first male dormitory. During the spring and summer time, it is the best place to see fireflies. While the glistening fireflies are flying all around the trial, the place becomes so romantic and poetic. Except for fireflies, there are also various frogs. It’s bustling and populous while they are stridulating. Along the trail, you can arrive at Gangziliao Fort. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Beining Rd., Zhongzheng Dist., Keelung City (In Ocean University )</item>
+        <item>開車沿中正路直行，接北寧路可抵海洋大學。</item>
+        <item>Take Keelung buses 103 or 104 to Binhai Gate of Ocean University bus stop; walk from there about 5 minutes.</item>
+    </string-array>
+    <string-array name="gt11">
+        <item>Lovers Lake Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Lovers Lake is located on the mountainside of Dawulun Mountain at the western part of Keelung. It was the only highland lake in Keelung with dense wood, beautiful lake and refreshing scenery. In spring and summer of every year, insects, butterflies and migrating birds often gather here. The park offers different facilities including kiosks, hanging bridge, observation platform, windmills and pathways for visitors to take a walking and enjoy the natural scenery, the beauty of plants and the forest therapy. Besides, it is said that if couples walk across Lovers Bridge hand in hand, they are destined to marry. It is also a great choice to stand on the observation deck to see the seashore.\n Service Tel: \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Near Ln. 208, Jijin 1st Rd., Anle Dist., Keelung City, Taiwan (R.O.C.)</item>
+ <item>國道三號 : 在基金交流道下，行基金一路往金山方向一指標右轉208巷即抵。</item>
+        <item>Bus：\nPublic transportation
+Take Keelung bus 505 to Qingrenhu Rd. bus stop; it’s 30 minutes by foot from there. Take Keelung bus 509 to Lovers Lake; the park is close to the bus stop.</item>
+    </string-array>
+    <string-array name="gt12">
+        <item>Dawulun Fort</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Dawulun Fort is a very important military base to be safeguard of the west side of Keelung Harbor. During the Opium War in 1840 and the Sino-French War in 1884, the court of Ching Dynasty has sent military force to guard this place. However, looking at the current structure and feature, the fort was probably renovated during the colonial period. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The provincial historic site was located on Tawulun Mountain. Located 231 meters above sea level, the fort looks down to Lovers Lake to the west, Dawulun Bay to the north, Keelung and East Sea to the east. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Walking up on a pebble footpath full of falling leaves, one will see the original structure of the fort, chassis, mechanical belt and storage room. Walls were made from stones with arched windows. Since the platform is at the high point facing the ocean, there are lots scenes to view over northeastern cape from platform, such as Keelung Islet, Waimu Shan seashore and Badouzih. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.19, Ln. 208, Jijin 1st Rd., Anle Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道三號，在基金交流道下，行基金一路往金山方向一指標右轉208巷即抵。</item>
+        <item>1.&#160;Take Keelung bus 505 to Qingrenhu Rd. bus stop; follow Lane 208 of Jijin 1st Rd.; it’s about 40 min. by foot. \n 2.&#160;Take Keelung bus 509 to Lovers Lake bus stop; walk across the street to the park area.</item>
+    </string-array>
+    <string-array name="gt13">
+        <item>Zhongzheng Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Zhongzheng Park is situated on the side of Dashawan Mountain, which is at the east of Keelung City. There is a white statue of Goddess of Mercy in the park. This 25-meter high statue has become one of the characteristics of Keelung. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The park overlooks Keelung City and the harbor. There are three levels in the park. On the first level is a historic canon fort. On the second level is a Buddhist library, Martyrs’ Shrine and Zhuputan Temple. The temple attracts many worshipers on July 15. On the third level is Guanhai Pavilion. Sitting in the pavilion, visitors can see the entire Keelung and the ocean. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The statue of Goddess of Mercy is the landmark of Zhongzheng Park. It is the biggest Goddess statue in Southeast Asia. Inside the statue is a stairway leading to the top. Zhuputan is where worshipers gather on Zhongyuan Festival. The first immigrants to Taiwan used to fight with each other for land. In order to stop the disputes, they set up a temple for yearly worship. The temple was in Gaosha Park during the Japanese occupation and moved to Zhongzheng Park. \n Service Tel: \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Shoushan Rd., Xinyi Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道1號-基隆端交流道下-中正高架道路-中正路-信二路-壽山路。</item>
+        <item>Take Keelung buses 101, 103,104, 105,106,107, 108, 202, 203 to City Government bus stop and walk to park. Or, take Keelung buses 107, 202, 203, 204 to Keelung Hospital bus stop, after passing the Zhongzheng Park Gate follow the stone steps uphill or follow Shoushan Rd. uphill.</item>
+    </string-array>
+    <string-array name="gt14">
+        <item>Harbor Ocean Plaza</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Harbor Ocean Plaza is located at the Zhong 1st Rd in front of Keelung train station, Harbor Ocean Plaza opened in august 19 2009. The wooden platform was mainly built 15 to 30 meters wide with 5,000 square meters total in the interior section of Keelung harbor. There are wooden reef, the image modeling of wave streamline and Keelung in LED. So, tourists can feel charm of Keelung city all the day long. At the same time, it ingeniously built a rare glass bridge connected scenic spots in Keelung city. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Keelung is surrounded by sea on the three sides and harbor also extends deeply to Keelung city. Keelung city government plans to build Maritime Plaza on the side of harbor at Zhong 1st Rd and sets up multiple wooden reefs and of landscape art of wave streamline. It conveys the heavy ocean image and style and has a function of beautification of the landscape and recreation. The light reflects on the surface of the sea at night, so tourists can stroll with cozy along the attractive side of harbor. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Harbor Ocean Plaza is situated in the side of Keelung Harbor so tourists can watch many boats coming back and forth, including the enormous cabinet vessels, warships and some other vessels; however, the most striking point is the cruise attracting tourists take a picture. Besides, this is a good place to enjoy watching eagle soaring in the sky and foraging for food. It is spectacular that more than ten eagles fly over Keelung Harbor when a Northeasterly wind arrived here. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; At the intersection of Xiao 2nd Rd. and Zhong 1st Rd., Ren’ai Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>中山高基隆交流道下→直行接忠一路→即可達海洋廣場</item>
+        <item>From Keelung Railway Station walk across pedestrian bridge to harbor side. /n Take Kuo-Kuang Bus Co. bus to Keelung Raiway Station and walk to harborside.
+</item>
+    </string-array>
+    <string-array name="gt15">
+        <item>Keelung Islet</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Keelung Islet stands on the northeast off Keelung. It is the most prominent island landmark in northern Taiwan and is the guidepost for ships shuttling in and out of Keelung Harbor. The graceful parabolic contour of the island makes it one of the eight scenic spots of Keelung. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Keelung Islet is a beautiful volcanic island surrounded by cliffs, and there is almost no plain on it. Walks and pavilions are the main recreational facilities on the island. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Along the wooden walks, various plants indigenous to Taiwan will unfold before the eyes of visitors, displaying the beauty of nature. For instance, Formosa lily blossoms will cover the entire island in the spring. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The island presents multiple beauties in accordance with climatic changes. The entire volcanic island is visible to the eyes during cloudless weather but displays a glimmering look at dusk. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Visitors of Keelung Islet can take a scenic boat tour from Bisha Fishing Harbor in the summer, which will enable them to watch the spectacular landscape of the island along the cruise. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Guanghua Lighthouse /n The Guanghua Lighthouse is the shipping guidepost of Keelung Harbor. It is place of origin of Taiwan ‘s first lighthouse coffeehouse, which is perfect for the purposes of sightseeing, business meeting, family gathering, and dating. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sitting in the revolving coffeehouse to have afternoon tea, visitors will be able to have a panoramic outlook over the sea V the bustling Keelung Harbor at one side and the night scene of downtown Keelung at the other.\n Service Tel :\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Keelung Islet part of Zhongzheng District .,Keelung City, Taiwan (R.O.C.) \nOpening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cooperation with the yacht comes \n Tickets information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Adults NT$400,concession tickets NT$300,children at aged 3 or younger NT$100</item>
+        <item>1.沿中正路東行接二號省道近麥當勞店後左轉即抵。\n 2.到碧砂漁港的交通路線，是沿著中山高速公路交流道進入基隆市區後便往基隆港務局大樓前方的中正路方向前進，順著基隆港東岸碼頭直走，經過海洋大學到北寧路即可。</item>
+        <item>Take Keelung Bus 103 or 104 to Beining Rd./988 Restaurant bus stop; from there it is 3 min. by foot to Bisha Fishing Harbor; from the harbor take a boat to Keelung Islet .Or take the boat to Keelung Islet from port across the train station.</item>
+    </string-array>
+    <string-array name="gt16">
+        <item>Keelung Miaokou Eateries</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The word renowned “Keeling Miaokou” is the major attraction of Keelung’s sightseeing. Many stands crowdedly gathered on the both sides of Jen 3rd Road between Ai 3rd Road and Ai 4th Road. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Following re-planning and renovation made recently, it has become an ordered and embellished place. Also, with its exclusive signboard design, each stand has their wares clearly present in front of the tourists, and the whole eatery street has been highly featured with versatile cuisines and history. Besides the famous Tenpura, Dinpientso, sandwiches, chicken rolls, butter crabs, slivered bean cakes, fresh seafood, authentic pig’s feet, stewed eel thick soup, pao pao ice etc., there are many Taiwan’s unique taste of snacks, i.e. baked squid feet, wine stewed whorls, sugarcoated haws, cool cakes, pickled guavas, which will make your mouth water. You will never forget all the snacks once you try them. Next to Miaokou, there is a traditional night market at Ai 4th road. In addition to the delicious snacks sold in the market, you will see the hawkers loudly hawked their wares on the crowded street. It is the best place for you to shop around. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ren 3rd Rd., Ren’ai Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>由基隆交流道沿著中正高架道路而下，在東一碼頭旁停車場停車，再步行至愛四路。</item>
+        <item>From Keelung train station, go straight on Zhong 1st Rd; turn right on Ai 4th Rd, and get there, which is about 10 minutes. Visitors may also take various bus lines which run circular and get off at the 2nd Hsin Stop.</item>
+    </string-array>
+    <string-array name="gt17">
+        <item>Lovers Lake Coastal Boulevard</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Waimu Shan seashore is the longest natural seashore remained in Keelung City with a total of 5 kilometers from Waimu Shan fishing port to Aoditong Village. The seashore includes open seashore and marine cliff to make spectacular scenery. Swimming facilities are available near Waimu Shan fishing port for experienced swimmers to go scuba diving and swimming. The beach near Aoditong Village is the only remaining sandy seashore in Keelung. In the summer, people often go to the beach to swim and have fun. For people who are afraid to swim in the sea, can enjoy other facilities. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Besides, one should never miss the beautiful sunrise in the summer. The incredible sight makes people feel carefree and joyous. The seashore and the reef rocks sculptured by the ocean over a long period of time are also a must-see. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(Xiehe St.,)Sec. 1 and 2, Huhai Rd., Zhongshan Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>走國道三號下基金交流道直行，走港西聯外快速道路，由德安交流道(約500公尺)下後右轉，前行300公尺接復興路左轉，過中山高中左轉協和街，即可到達。</item>
+        <item>Take Keelung bus 302 to Zhongshan Senior High School bus stop. Walk for 20 minutes along the coast from there. On holidays, you can also take Keelung bus 305 to Lovers Lake Seaside Boulevard Memorial bus stop. The bus runs every hour from 14:30 to 21:30 (service is suspended from December to April every year).</item>
+    </string-array>
+    <string-array name="gt18">
+        <item>Fumin Water Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Fumin Water Park, in Maling Recreational Farm Area nearby the Malingkeng Stream, is an area with small bridges and gurgling, bubbling waters. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In the neighborhood, there is Maxi Tung Blossom Trail, softly beautiful when the flowers are blooming and falling. The most distinctive feature of Fumin Water Park is a circular walkway which is about 850 meters. The walkway is really gorgeous that visitors come over necessarily.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In the neighborhood, there is Maxi Tung Blossom Trail, softly beautiful when the flowers are blooming and falling. The most distinctive feature of Fumin Water Park is a circular walkway which is about 850 meters. The walkway is really gorgeous that visitors come over necessarily.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;On tung flowers seasons in Keelung, there are tung flowers everywhere. The mountaintop of tung flowers looks like snow falling. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Recently, the government advocated a principle of ecological preservation, so many streams are prohibited to fish; neither of Malingkeng Stream. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Except for tung blossom, there are lots of entertainment facilities. Therefore, no matter there is tung blossom or not, Fumin Water Park is a good choice to have fun.\n Service Tel: \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dahua 3rd Rd., Qidu Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>北二高下瑪東系統交流道接台62線快速道路大埔交流道下→轉大同街→直行遇大華二路岔路口→走大華二路接大華三路→即可抵富民親水公園。</item>
+        <item>Take Keelung buses 602 or 603 to Dongxing Temple bus stop and walk to the park. /n Take Keelung bus 605 to Nuandong Nursery bus stop and walk from there. /n Take Keelung bus 605 to Nuandong Nursery bus stop and walk from there.</item>
+    </string-array>
+    <string-array name="gt19">
+        <item>Nuandong Valley</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuandong Valley is located in the southeastern part of Keelung in Dongshih Keng. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The forests in this area are well-preserved and the unpolluted river flows all year round. Following the footpath along the boy scouts camp, one can choose to walk along the crag to see splendid view and plants or walk along the stream to enjoy the exquisite view of water and bridge. The views are very pretty along with the footpaths. You are able to stop anytime to observe the insects, plants and flowers. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Try and see if you can find the dragonfly, damselflies or Taiwan whistling thrush flying in the valley. Moreover, you can cool yourself with the clean and fresh water in the stream.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;886224596262 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;Near Dongding Rd., Nuannuan Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours: \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Daily 08:00 to 18:00 (closed on rainy days). \n Tickets information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Adult NT$ 40, Child NT$ 25, group NT$ 35(a general group with more than 30 persons)</item>
+        <item>1.國道一號，東北角（濱海）交流道下，右轉往八堵方向，至暖暖沿東勢街即抵。\n2.國道一號，東北角海岸交流道下，轉東勢街即抵。\n3.國道一號，八堵交流道下，接102乙縣道至暖暖，再接東勢街左行至東勢坑村即扺。</item>
+        <item>Take Keelung Bus 603 to Nuandong Valley bus stop and walk to the valley.</item>
+    </string-array>
+    <string-array name="gt20">
+        <item>Chenghuang Temple</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Chenghuang Temple is located on Zhon Yi Road of Ren Ai District, whose door is opposite Keelung Harbor. According to the legend, Chenghuang was the seventh official of Keelung during the Ching Dynasty. Because he was kind and honest, and concerned about his masses, he has been worshiped after he passes away. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The designing feature of Chenghuang Temple is like a “?” shape which is like a Chinese word. The architecture of Chenghuang Temple is undulate and contrastive of light and shade. Besides, a big abacus hanging on wall would be used to alert people. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The annual Keelung Chenghuang Culture Festival Activity of City God Temple always holds series of related activities. Therefore, it’s quite popular in the whole Keelung. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224250955 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.7, Zhong 1st Rd., Ren’ai Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;09:00~21:00</item>
+        <item>基隆交流道下，右轉仁四路直行不久，左轉愛一路直行至忠一路直行可達。</item>
+        <item>Take Keelung buses 301、302、303、402、403、501、502、505、601、602、603 to Chenghuang Temple bus stop and walk to the  Temple。</item>
+    </string-array>
+    <string-array name="gt21">
+        <item>Qing an Temple</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Qing an Temple is also called “Matsu Temple”, which located at the left side of Jhong 2nd Road. It is one of the oldest temples in Keelung city in the early day, the area was a bustling port and a majority of its residents lived by fishing. It was established during the Chienlung Regime for the worship of Matsu. It has had more than two centuries of history and become the citizen s major religious reliance. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; At Qing an Temple, the dragon sculptures are exquisite; the stone carving lions are vivid, and the inside wall are Italian and elegant. The Matsu is enshrined in the middle of Qing an Temple; the clairvoyant and the clairaudient are enshrined at the both sides. Qing an Temple of Keelung is the only Matsu Temple which worships Matsu of Meichou, Changchou, and Chuancho. It s well known as Tianhou Temple of Heping Island and Chenghuang Temple in Keelung. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224247708  \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; No.1, Zhong 2nd Rd., Ren’ai Dist., Keelung City, Taiwan (R.O.C.)  \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; on duty for 24 hours </item>
+        <item>基隆交流道下，右轉仁四路直行不久，左轉愛一路即可到達慶安宮。</item>
+        <item>Start from Keelung Train Station, and turn right on Xiao 2rd Rd, then arriving when turn left on Zhong 2rd Rd. it takes five minutes if you walks.</item>
+    </string-array>
+    <string-array name="gt22">
+        <item>Lingquan Buddhist Temple on Yuemei Mountain</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Same as the name, the lonely Lingquan Buddhist Temple is located on Yuemei Mountain, which surrounds by mountains. The temple, which built for more than hundreds years, was the cradle of Buddhist Temple of north Taiwan. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Same as the name, the lonely Lingquan Buddhist Temple is located on Yuemei Mountain, which surrounds by mountains. The temple, which built for more than hundreds years, was the cradle of Buddhist Temple of north Taiwan.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Buddha, Four King Kong, and Sakyamuni Buddha are worshiped in the temple. The icons of the guardian Chu Tian, Buddha, 16 sages, which were carved by Chi-Feng Lin, a famous sculptor of Fujian. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Except for the temple, there are also historic relics, Kai Shan Hall and Lingquan San Tower. The architecture of Kai Shan Hall adopted Chinese and Western style. The hall which was the earliest construction of the temple was built in 1920. In addition, the type of Lingquan San Tower which is located on Liuhe Road imitated the Buddha towers of India. The appearance of the tower is having antique flavor. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224653191  \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.1, Liuhe St., Xinyi Dist., Keelung City, Taiwan (R.O.C.)  \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 09:00~17:00 </item>
+        <item>由基隆交流道下路，右轉接忠四路、仁五路至愛三路岔口時左轉續行，再右轉仁一路接東明路前行，至月眉路岔路口時再右轉入月眉路直行即可到達靈泉禪寺登山口。</item>
+        <item>Take Keelung bus 201 to Yuemei intersection bus stop; get there about 40 minutes by foot. Take Keelung transport to Lingquan Temple bus stop; the temple is close to the stop. </item>
+    </string-array>
+    <string-array name="gt23">
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Chungyuan Sacrifice (the seventh full moon in a lunar year) is the most important annual folklore sacrificial festival in Keelung, and the major site to hold the sacral ceremony is Chupou Altar. Early on, it was built on Hsinshi Street or Tsaowei store street, but it has been moved to Jhongjheng Park with much larger scale and more modern sense. At the three-story Chupu Altar, you may overlook the whole Keelung area. In its front floor, there is a museum where has a collection of historical relics regarding Chungyuan sacrifice. The collection includes the rituals and articles used in Chungyuan Sacrifice. It also exhibits diversified Chungyuan Sacrifice items, so it is very valuable for you to come to explore. There is a lightning ceremony on the 15th of July in lunar calendar, this activity always brings the public’s ardent participation of Chupu Altar’s ritual to a new high. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224284242 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.280, Xin 2nd Rd., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The business hour is from AM9:00 to PM5:00 on Tuesday to Saturday.(closed on Mondays)</item>
+        <item>國道一號→基隆交流道下→走忠一路→義一路→信二路→壽山路左行上山即抵。</item>
+        <item>Take Keelung buses 107, 202, 203, or 204 to Keelung Hospital bus stop; after passing the Zhongzheng Park Gate follow the stone steps uphill or follow Xin 2nd Rd.and Shoushan Rd.uphill.</item>
+    </string-array>
+    <string-array name="gt24">
+        <item>E Tai Enterprise Bathroom Product Tourist Factory</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;E Tai Enterprise Bathroom Product Tourist Factory is located in Keelung City’s Da Wu Lun Industrial District. Yi Tai E Shower Room showcase Factory, owned by Yi-Tai Company is the very first shower room cultural showcase factory. With five theme exhibitions including revolutionary history of European shower rooms, 1560 Keelung story hall, Home Spa exhibition hall and etc, the factory combines industrial development and culture.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Besides, this is Taiwan’s first bathroom product tourist factory, covering over 6000 square meters. The factory is divided into three themed areas: Bathroom Happy Living Hall, Home Spa Experience Hall, and Bathroom Culture Hall. Happy Living Hall shows bathroom art objects in different sizes; visitors can book a free spa experience in the Home Spa Experience Hall in advance; with a pure white marble space and large canvas sheets, the bathroom culture hall displays Taiwan bathroom culture. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224342111 \n Address of attraction :  \n &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.51, Wuxun St., Anle Dist., Keelung City 204, Taiwan (Dawulun Industrial Zone)  \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;09:30~17:00 </item>
+        <item>國道三號，在萬里交流道下左轉，行基金一路的往金山方向，於大武崙工業區(優力加油站)左轉，即可抵達一太e衛廚觀光工廠。</item>
+        <item>Take Keelung bus 505 to Dawulun Industrial Zone bus stop; from there, it’s 10 minutes by foot. </item>
+    </string-array>
+    <string-array name="gt25">
+        <item>Liu Ming-Chuan Tunnel</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Liu Ming-Chuan Tunnel is located on Chungde Road in Anle district; it is also called ‘Shihciouling Tunnel’. It was constructed by Liu Ming-Chuan when he built a railroad during the Kuanghsu Regime. It was recently opened to visitors. The dim and deep tunnel is about 200 meters long. Above the other entrance of the tunnel, Liu Ming-Chuan had the words ‘Kuang Yu Tien Kai’ inscribed. A trail leads to the historical Shihciouling Gun Mount, but visitors are advised that this is a long walk. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224224170 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;At the End of Chongde Rd., Anle Dist., Keelung City, Taiwan (R.O.C.)\n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tunnel inside open temporarily; north side which is no time limited is a open space.</item>
+        <item>自基隆火車站左側港西路，繞行至中山一路左轉，直行過高架橋底後不久，經三叉路口右轉上坡走安樂路後到崇德路循指標可抵。</item>
+        <item>Take Keelung buses 501 or 502 to Ziqiang Tunne bus stop . Walk to Chongde Road and the destination is 10 minutes away.</item>
+    </string-array>
+    <string-array name="gt26">
+        <item>Monument of Prince Kitashirakawa-no-miya Yoshihisa</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In 1895, Kitashirakawa-no-miya Yoshihisa was one of the Japanese generals appointed to invade Taiwan. In June, he stayed in Keelung. However, he died in Tainan in October. Then, Japanese built the monument to commemorate his contributions. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;When Taiwan was ceded to Japan after the Sino-Japanese War Kitashirakawa-no-miya Yoshihisa was one of the Japanese generals appointed to invade Taiwan. After Prince Kitashirakawa-no-miya Yoshihisa took Tainan for one week, Shortly after he landed from Yenliao beach and all the way attack Keeling and Taipei, he died in Tainan. He died at his home due to the malaria. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;During Japanese colonial period for 50 years, Prince Yoshihisa was regarded as apotheosis. While Prince Kitashirakawa-no-miya Yoshihisa invaded Taiwan, he stay in Keelung for long time. Therefore, there is monument of Prince Yoshihisa in Keelung. The monument which was made of concrete was not found until recently. The height is about 3 meters. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Next to No.166, Zhongzheng Rd., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.) ( Customs old domitory)</item>
+        <item>中山高速公路基隆高架交流道下，循中正路至166號（復興館站）海關舊宿舍旁。</item>
+        <item>Next to No.166, Zhongzheng Rd., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.) ( Customs old domitory)</item>
+    </string-array>
+    <string-array name="gt27">
+        <item>TZU SANG  HSU Historic home</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;許梓桑古厝大約興建於日治時代昭和6年(1931年)左右，為日治時代台灣基隆地區聞人許梓桑所建之洋樓。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;許梓桑於日治時代曾任街庄長事務所書記、基隆街名譽助役等職，晚年鼓吹詩學，氣勢非凡並居住於名為「慶餘堂」廈屋，即現今許梓桑古厝，全棟採用日治時期所生產的「TR機器磚」砌築，為其特色，雖然依循著傳統閩南式建築風格，點綴有西洋式的建築細微之處，十分特別。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;目前無人居住，雜草紛多，不過殘留的古牆中，仍透露著早年大戶人家的氣勢。</item>
+        <item>愛四路2巷15號。由中山高速公路下交流道後右轉仁一路，直行至愛五路時右轉，順行後與愛四路交接處左轉，不久後可看到一座 三山國王廟指標，沿指標步行上山直走至底即抵。</item>
+        <item>無</item>
+    </string-array>
+    <string-array name="gt28">
+        <item>China-French War Memorial Tablet</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;On 1884, French attacked Keelung. There was fierce fighting around Fairy Cave during the China-French War, with many Qing soldiers killed in action. A stele was later erected on Taibai Street near Fairy Cave to commemorate the fallen martyrs on which was carved The Tomb of Qing Chinese. Later, to allow all the martyrs to be worshipped in one place, the Ci’en Temple was built. Above the temple, the Memorial Stele for Soldiers who fell in the China-French War was erected.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Near No.83, Taibai St., Zhongshan Dist., Keelung City 203, Taiwan (R.O.C.) </item>
+        <item>由中山高速公路下交流道後，直行中正路，看到海門天險入口處，對面即為民族英雄墓紀念碑。</item>
+        <item>Take Keelung buses 301, 302, or 304 to Jigang village bus stop. Walk to No.83 Taibei St. and walk up the stairs from there. </item>
+    </string-array>
+    <string-array name="gt29">
+        <item>Keelung Harbor Memorial</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The memorial was built to commemorate the sacrifice of the many workers who died building Keelung Harbor during the Japanese Colonial Period. It has three parts, a path, memorial square, and a memorial stele. It is located on the hill near the 3rd and 4th docks. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The stone step path connects the memorial stele to the road, while the memorial square was for group worship. Walking up from the square, the tall and erect memorial stele comes into view. On the memorial, it recounts the bitter history of the establishment of Keelung Harbor. This is the optimal scenic spot to overlook the whole Keelung Harbor.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Near Zhongshan 3rd Rd., Zhongshan Dist., Keelung City(close go Gaoyuan New village)</item>
+        <item>自基隆火車站左側港西路，繞行至中山一路右轉，順行至中山二路轉三路時，中山隧道旁的小路上山約2分鐘可抵</item>
+        <item>Take Keelung buses 301 or 304 (headed for Taibaizhung), get off at Pier 16 bus stop and walk from there.</item>
+    </string-array>
+    <string-array name="gt30">
+        <item>Sino-French War Memorial Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sino-French War Memorial Tablet is a historic site which is next to Zhongzheng Rd. of Zhongzeng District. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sino-French War is also called Chinese-Franch War, which occurred between Qing Dynasty and France for Vietnam. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;France attacked Keelung in 1884; the war took about eight months, and it makes both sides a disastrous. Therefore, there are French Cemetery and National Heroes’ Cemetery, which are called Sino-French War Memorial Park. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;On Zhongzheng Road, down the hill from Ershawan Fort, is the National Heroes’ Monument, commemorating the Qing soldiers killed in action during the Sino-French War. Not far from there is the French Cemetery, the burial place of French soliders who died in the war. Together, these two sites from the Sino-French War Memorial Park, both Chinese and French witness to a war that occurred more than a century ago. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ershawan Zhongzheng Rd., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>由基隆交流道循中正高架道路下高速公路，沿中正路前行不久後即可到達。</item>
+        <item>Take Keelung buses 101, 103, 104, or 105 to Haimen Tianxian or Bus Depot bus stop and walk from there uphill.</item>
+    </string-array>
+    <string-array name="gt31">
+        <item>The Buddha Hand Cave</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The Buddha Hand Cave is located next to the Siandong (Celestial cave). \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The city government renovated this area to make it a cultural scenic area and provided paved gravel walking paths to avoid slipping. Inside the Buddha Hand Cave, there are several routes heading to different small caves, with each cave having its own unique view. Walking inside the Cave is just like going on an adventure, and the natural cool air will bring you another special experience. On the stone wall of the farthest cave, there is a weathered hand imprint which is very similar to the shape of a Buddha’s hand (you may need to look up to see it) which gave the cave its name. Currently, a package tour may include the Buddha Hand Cave, Celestial cave, Monument of Soldiers who Died in the Sino-French War, Port Construction Monument and Baimiwong Fort.\n Service Tel : \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Behind the No.11, Ren’an St., Zhongshan Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;08:00~18:00</item>
+        <item>自二高終點（港區交流道）下，直行不久便可抵仙洞遊憩區。附設大、小型車停車場。</item>
+        <item>Take Keelung city bus No. 301, 302, 304 to Siandong cave and then walk to the destination.</item>
+    </string-array>
+    <string-array name="gt32">
+        <item>頂石閣砲臺(中正區)</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位於今日中正區正榮街海軍醫院院區內，緊臨正濱國中大門下方，推測約為清領末期(1886&#8211;1894)年間所建，舊稱「旭崗」，從所留的殘跡來看與劉銘傳於台灣其他地區所建的新式砲臺相近，可能為劉銘傳在臺興建的八大砲臺之一，而目前的砲臺遺跡多破壞殆盡，現僅存地下雕堡與營舍，原砲區位置大概位於正濱國中大門對街軍方的副食供應站，而本砲臺與西岸白米砲臺和南面的二沙灣砲臺形成防禦的鐵三角，可惜的是文獻記載極少，目前為基隆最神秘的砲臺；民眾如要進入則需於正榮街正濱國中大門右後方圍牆缺口小路下去進入。</item>
+        <item>自中山高下東岸高架橋後順行中正路，可於祥豐街或中正路接正榮街上行至頂可到(位於海軍醫院正上方)。</item>
+        <item>無</item>
+    </string-array>
+    <string-array name="gt33">
+        <item>Badouzi Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Badouzi is located at a small island of northeast of Keelung City. Because of excellent location, Badouzi is the biggest fishing harbor of north Taiwan. The Badouzi Park is at Badouzi seacoast; there are trail, pavilion, and sea-viewing platform to view the landscape of Keelung Islet. Lots of marine abrasion terrains such as marine abrasion platform, precipices, and ditches to make deep impression to our visitors. Besides, during the spring and autumn time, the view of visitants’ immigration can be viewed. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;There are various seacoast plants. While leaving grasslands of the park, visitors can see an abandoned blockhouse which was related to that Badouzi regarded as a military district at early periods. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The highest point of Badouzi Park is 101 heights. We named it because of an elevation is about 101.1 meters. This spot is really rare. Therefore, Visitors can overlook the vast scenery in here.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; +886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Badou St., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>1.國道一號 : 往宜蘭方向行駛即可到達。\n2.國道3號 : 過大竿林隧道-下中和路匝道-右轉上西定高速道路-左轉中山一路-往宜蘭方向行駛。</item>
+        <item>Take Keelung bus 103 to Badouzi bus stop; get there about 15 minutes by foot.。</item>
+    </string-array>
+    <string-array name="gt34">
+        <item>Nuannuan Water Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuannuan Water Park is in Keelung Nuannuan Creek, which cooperates with the improvement plan of Keelung river to handle the protection of tributary. It uses lower water in the downstream to be preserved and built with ecological method. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The overall length of Nuannuan Water Park is 4 KM and establishes public recreation space and various perches for a living thing. Tourists can see the natural scenery along Nuannuan creak and Nuandong Gorge.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuannuan Water Park is located in the downstream of Nuannuan Creek between Shuanglong bridge and Shuiyuan bridge. Tourists can see the title Nuannuan Water Park and artistic stele. Inside the park, the water playing ground has fountain section and water playing section, and has a blue suspension bridge which can be cross the creek. It is very attractive that under the suspension bridge sets the children’s playing facility. Nuannuan Water Park becomes the best place for recreation.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; In addition to the wide space of recreation, there are many seats available to rest, enjoy the scenery and chat with friends. Tourists can take a walk on the path or wooden path. It seems animated that water in fountain section sometimes spouts high and low. The water playing ground opened from 3 pm to 6 pm every day in the summer vacation. So tourists can enjoy it very much.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; +886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Shuiyuan Bridge,Nuannuan District., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道三號 :　東西向快速公路萬里瑞濱線－下暖暖交流道－右轉暖暖街。</item>
+        <item>Take Keelung Bus 602 to Nuannuan Post Office bus stop and walk to the park.</item>
+    </string-array>
+    <string-array name="gt35">
+        <item>Yizheng Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yizheng Park is located in Zhongzheng Park, which is the first park that combines with the army, navy and air force facilities.\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The various weapons of Yizheng Park such as F-104G Air Fighter, the missile of the Victory of Samothrace, five inches navy cannon, amphibious chariots, and so on. They are so frighten to visitors. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The worthiest object at the park is the Armstrong artillery of the ancient period of Liu Ming-chuan. The diameter of gun muzzle ias 8 inches; the gunshot is 5 kilometers; the height is 5.55 meters; the weight is 12 metric tons. It is the only real artillery of Keelung. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; +886224287664 \n Address of attraction \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Shoushan Rd., Xinyi Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道 : 往宜蘭方向-右轉豐稔街。</item>
+        <item>Take Keelung buses 107, 202, 203 or 204 to Keelung Hospital bus stop; after passing the Zhongzeng Park Gate follow the stone steps uphill or follow Shoushan Rd., pass Zhongzheng Park and go further on to Yizheng Park. It’s 15 minutes by foot. Take Keelung bus 204 to City Gym bus stop; get there along Shoushan Rd. about 10 minutes by foot.</item>
+    </string-array>
+    <string-array name="gt36">
+        <item>Nuannuan Sports Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuannuan Sports Park is located in the opposite side of Dongding Rd and Nuangdong Nursery Garden. There has a suspension viewing bridge between Dongding Rd and Nuangdong Nursery Garden. It is a new public sport park in Nuannuan district. It combines the function of leisure and exercise so it satisfies local people’s requirement. Walking up to the slope along the sport park, tourist can appreciate beautiful view in Nuannuan district. It is designed as a small but functional park with a limited budget. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuannuan Sports Park has a various sport facilities, including a football field, basketball court, tennis court, rest section and so on. Especially, there is a water park playground so children can enjoy here during the summer time. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;When tourist comes to Nuannuan Sports Park, you can also visit Nuangdong farm and Nuannuan water affinity park. Tourist can not only exercising but also experience the atmosphere of nature, learning how to get along with nature. Therefore, it is worth to visit with whole family.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; +886224578844 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dongding Rd., Nuannuan Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道三號 : 東西向快速公路萬里瑞濱線-暖暖交流道-左轉東勢街-左轉東碇路</item>
+        <item>Take Keelung bus 701 to Maling bus stop; from there, it’s 3 minutes by foot.</item>
+    </string-array>
+    <string-array name="gt37">
+        <item>Baifu Sports Park (Baifu Young Lohas Club)</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Baifu Sports Park is located on opposite side of Keelung City Motor Vehicles Station, which is next to Zhongshan highway. The obvious mascots on roof of Baifu Young Lohas Club are two dolphins.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Outside of first floor is green and lush. On the right side, the view of Keelung riverside is so elegant. There are also fast food, snacks, and drinks inside the first floor.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Second floor is a swimming pool. The sunshine there is an idea of nature. Besides, there are also spa, sauna, and bath area of health and wellness.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Third floor is spa areas, gyms, and yoga classrooms. There are some course about spa, facial, foot service, and swim training. Baifu Sports Park is a best place to combine education, sports, entertainment, health, and nature.\n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; No.259, Shijian Rd., Qidu Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 05:30~23:00 Park is open space; no time limited \n Tickets information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; The ticket of club is NT250, the park is free.</item>
+        <item>國道一號 : 五堵交流道-左轉千祥橋-左轉實踐路\n國道三號 : 東西向快速公路萬里瑞濱線—大華系統交流道 ( 銜接國道一號 ) -五堵交流道-左轉千祥橋-左轉實踐路</item>
+        <item>Take Keelung buses 406 to Motor Vehicles Station bus stop to the park.</item>
+        </string-array>
+    <string-array name="gt38">
+        <item>Nuandong Nursery Garden</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuandong Nursery Garden is located on Dongding Road, Nuandong Nursery garden faces Sports Park. It is also called No. 14 Park. Due to its specific climate, it has very rich ecological resources that low sea level area has, so it is an affluent and interesting small forest bath site. To go alone the forest-bath trail, your will immerse in the natural beauty and feel relaxed with the brisk air. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Since 1995, Keelung city runs Nuandong Nursery garden with the natural instruction and cultivation of seedling. There are exhibition of a variety of topics inside the garden. The natural path built by the abandoned sleeper enhances the beauty of original nature. The overall plan for Nuandong Nursery garden is different from other recreation site.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In service center, the gracious narrator with all smiles on their face introduces everything here, attracting tourists to instantly come here to inhale the fresh air. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nuandong Nursery garden is natural Foliage forest of low elevation. Because of wet and ocean regulatory climate, it develops the extremely complicate and abundant views of animals and plants. The scenery of plants involves wild wood, including Red Nanmu and Common Free Fern, and artificial forest, including acacia and cryptomeria. There are at least over 300 kinds of plants, 200 kinds of butterflies and other multiple living creatures. It is not only an ideal world where tourists can close to trees, watch birds and butterfly, but also at the same time, it is the ideal place to live closely to nature, birds, flowers and trees. Especially, it is a natural classroom to teach students about ecological life.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224582821 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.12, Dongding Rd., Nuannuan Dist., Keelung City, Taiwan (R.O.C.)\n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Open at from 08:30 to 16:00 everyday.</item>
+        <item>國道三號 : 東西向快速公路萬里瑞濱線-下暖暖交流道-靠左東勢街-左轉東碇路-右轉一般道路</item>
+        <item>Take Keelung Bus 602 or 603 to Dongxing Temple bus stop and walk from there .Or take Keelung Bus 605 to Nuandong Nursery garden and walk to the destination.</item>
+    </string-array>
+    <string-array name="gt39">
+        <item>Jinlong Lake</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Jinlong Lake is located under Xinshan Reservoir. The feature of the lake has various dragonflies because of plants on the wetland are luxuriant. Every October of the year is the season of dragonflies’ migration; Keelung is the best option of stay for them. \n Service Tel: \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;in Ln. 32, Leli 3rd St., Anle Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道一號 : 基隆交流道-往麥金路-左轉樂利三街-右轉樂利三街28巷-左轉樂利三街32巷-右轉一般道路</item>
+        <item>Take Keelung bus 501 to National New Residential Quarters bus stop; get the lake about 10 minutes by foot.</item>
+     </string-array>
+    <string-array name="gt40">
+        <item>Huzi Mountain Trail</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Huzi Mountain Trail is green and lush. On a hillside to the northwest of Keelung Railway Station, this trail offers beautiful scenery and a bird’s-eye view of Keelung Harbor. When the weather is fine, the Keelung Islet can also be seen. Walk up where you can admire almost one thousand 1000-arm Guanyin statues and also Buddha statues from the Japanese Colonial Period. There is a big white “KEELUNG” sign in English on top of the hill that is the city’s main landmark. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ln. 241, Zhongshan 1st Rd., Zhongshan Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;open space; no time limited \n Tickets information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;free \n Parking information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Gangxi Street car park</item>
+        <item>國道一號 : 國道終點-左轉忠一路-右轉港西街-左轉中山一路-左轉中山一路241巷-左轉至臨海新城-順沿左轉至兩山壁間道路</item>
+        <item>Face to Keelung Train Station, turn right and along Gangxi Street to Zhongshan 1st Rd, turn left to lane 241, Zhongshan 1st Rd top, turn left again to the road between two rocks to the trail.</item>
+    </string-array>
+    <string-array name="gt41">
+        <item>Hongdan Mountain Trail</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Huzi Mountain Trail is green and lush. On a hillside to the northwest of Keelung Railway Station, this trail offers beautiful scenery and a bird’s-eye view of Keelung Harbor.   \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;When the weather is fine, the Keelung Islet can also be seen. Walk up where you can admire almost one thousand 1000-arm Guanyin statues and also Buddha statues from the Japanese Colonial Period. There is a big white “KEELUNG” sign in English on top of the hill that is the city’s main landmark.\n Service Tel: \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;886224287664 \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Hongdan Mountain Trail divide into the route of temple, ecology, and climbing, visitors can choose one of them base on need and physical situation. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ln. 241, Zhongshan 1st Rd., Zhongshan Dist., Keelung City, Taiwan (R.O.C.))</item>
+        <item>國道一號 : 國道終點-右轉南榮路-左轉南榮路455巷</item>
+        <item>Face to Keelung Train Station, turn right and along Gangxi Street to Zhongshan 1st Rd, turn left to lane 241, Zhongshan 1st Rd top, turn left again to the road between two rocks to the trail.</item>
+    </string-array>
+    <string-array name="gt42">
+        <item>Jiangzihliao Mountain Trail</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Jiangziliao is situated at the meeting point of Keelung City and Xizhi and Pingxi districts of New Taipei City. This is Keelung’s highest mountain, which is 729 meters of height above sea level; also a tall and erect peak that is part of the Wufen mountain range. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Jiangziliao Mountain has beautiful scenery. The surrounding mountain peaks are joined by a number of ridges. The view is panoramic. The city government has built a walking trail which has become a favorite with hill walkers. A number of ridges meet on the peak. It offers wide views and has a wooden sleeper trail that is popular with hikers. The scenery along the trail is breathtaking and the flora and fauna is rich and diverse. At the side of the road leading up the mountain you will pass various farm buildings, a stream and a "butterfly valley" reserve, giving it a strong rural feel. When the weather is good, you can see Taipei\'s 101 Tower in the distance. The trail is suited for all the family. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In Tai’an Rd., Qidu Dist., Keelung City, Taiwan (R.O.C.)</item>       
+        <item>國道三號 : 接東西向快速公路萬里瑞濱線-七堵交流道-靠左大同街-左轉大華二路-右轉明德一路-靠右明德二路-左轉泰安路-右轉泰安路2巷-靠左泰安路</item>
+        <item>Take Keelung bus 402 to Caojian bus stop; take the South Qidu underground path and follow Tai’an Rd; it’s about 45 minutes by foot.</item>
+    </string-array>
+    <string-array name="gt43">
+        <item>Yongjia Scenic Trail (Red Dragon Mountain)</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yongjia Scenic Trail in the Red Dragon Mountain is located at Chongde Rd. in the mountainside. There are two entrances that you can get into the destination. The first entrance is at Ln. 10, Chongde Rd (walk from An 1st Rd) and the second is the stairway on the side of Liu Ming-Chuan Tunnel. With the spacious views and complete planning, when the tourists go along the stairway, you will see the gun emplacement and temple. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;It is said in the Red Dragon Mountain that in the end of Qing Dynasty and the early of Republic of China there was a fisherman who had an extremely good practice. He did his job near the ocean of Turtle Island for many years. When he saw Red Dragon Mountain from the Turtle Island with sunset, he found that the Red Dragon Mountain was like a red dragon which lay on the mountain, therefore, it is called the famous Red Dragon Mountain. Besides, this is an important place of Qing troops during the Sino-French War. Thus, along the way the tourists can watch the obsolete fort of Qing and when you go hiking, you also can sense the trace of history.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In Yongjia Scenic Trail, it will take you about 40 minutes one way. The road is not too long and hill is not steep, so the tourists can choose the good way to walk. In addition to hiking, you can view the scenic of Keelung Harbor along the entire trail. It is a good place to enjoy hiking and viewing the scenic. Although the mountain in Keelung is not very high, the tourists still can see the night scenes. There is a scene pavilion in Red Dragon Mountain, so the tourists can understand the location of Keelung.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The tourists can also walk to Liu Ming-chuan Tunnel and ShiqiulingFort when hiking in the Yongjia Scenic Trail. Or, you also can extend your hiking to Lovers Lake and Waimushan Coastal Boulevard. So, it is worth of visiting for tourists. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Chongde Rd., Anle Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道一號 :左轉基金路-左轉中山一路-右轉樂利一路</item>
+        <item>Take Keelung bus No. 501 or No. 502 to Zihciang Tunnel and then walk from Chongde Rd to the entrance of Liu Ming-Chuan Tunnel about 10 minutes.</item>
+    </string-array>
+    <string-array name="gt44">
+        <item>Liudu Risk Canal Trail</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;One section between Liudu and Bai-hsi-hou Hsi Trail is a risk canal of a boundary between Tai-an Village and Liudu Village, so it is called Liudu Xianjun Trail. The length of Liudu Xianjun Trail is about 350 meters. The view of risk canal is all natural. The wiggle Keelung watercourse seems like Jiuqu River of Wuyi Mountain of China. Therefore, it is also called small Wuyi Mountain. Besides, the below waters of Keelung River is called Gueitan because there are many tortoise. The ecology is various; the trail is made of timbers; the facilities are complete. The cliff of the boundary was carved the four Chinese word or “Liudu Xianjun”  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Visitors not only can appreciate the landscape of Keelung River but also realize the culture and history. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Mingde 2nd Rd., Qidu Dist., Keelung City 206, Taiwan (R.O.C.)</item>
+        <item>國道一號 : 五堵交流道下-左轉千祥橋-左轉堵南街-右轉大德路-右轉一般道路-左轉北基公路-左轉迴轉-右轉明德二路</item>
+        <item>Mingde 2nd Rd., Qidu Dist., Keelung City 206, Taiwan (R.O.C.)</item>
+    </string-array>
+    <string-array name="gt45">
+        <item>Zhengbin Fishing Port Nostalgia Pier</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Zhengbin Fishing Port, located at south of Heping Island, is considerably more laid back. The Port is built by the Japanese in 1934, and it was the biggest fishing port in Taiwan during the Japanese era. Although it gradually diminished afterwards, its down- to-earth appearance endures. The city is actively seeking to preserve it as a place for relaxation and nostalgia. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;There has been a boat named “Folk Art” at Zhengbin Fishing Port Nostalgia Pier. It was the first art museum on the sea. Besides, there has been also held dragon boat race and some activities, which were quite popular.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664  \n Address of attraction : \n &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tionAt junction of Zhongzheng Rd. and Zhengbin Rd,zhongzheng District Keelung City \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; open space; no time limited </item>
+        <item>1.國道一號 : 往宜蘭方向行駛即可到達左轉北寧路(中正路方向)-右轉正濱路\n2.國道3號 : 過大竿林隧道-下中和路匝道-右轉上西定高速道路-左轉中山一路-往宜蘭方向行駛-左轉北寧路(中正路方向)-右轉正濱路</item>
+        <item>Take Keelung bus 101 to Zhengbin Rd. bus stop and walk from there; or take Keelung bus 103 or 104 to Zhongzheng District Health Center bus stop and walk from there. </item>
+    </string-array>
+    <string-array name="gt46">
+        <item>Stanly-Glass Technology Center</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Stanley-Glass Technology Center is located at Dawulun industrial park of Keelung City, which is the third glass center of Taiwan. There are six centers located at 6 floors building, which demonstrates that diversification of glass and technology. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Visitors can see 99 pieces art glass by teacher Wun-Ching Huang while entering the lobby of first floor. The 99 pieces of art glass symbolizes that business of Stanley-Glass will be forever.   \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The unique golden beds and golden rocking chair are at the glass exhibition area on the third floor, which are like various colors of rainbow or sunset glow. The ice hallway of photoelectris area which feel like walking on the ice. There are digital image art glasses, solar energy glass, and so on, which show lots of application of glass. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;I-table which means touching the glass screen multi-point is located at the fourth floor. Moreover, there is a 8meter and 3 floors height sky trail. The most special exhibition center of Stanley-Glass is the light and electricity center on the fifth floor.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The first stop for explaining of Stanley-Glass is the crystal conference room on the sixth floor. Except for presentation and briefing function to guests, there is a crystal glass platform which is different from other crystal acrylic platforms.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; +886224323335  \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.33, Wuxun St., Anle Dist., Keelung City(Dawulun Industrial Zone) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;09:00~16:00(daily) \n Tickets information : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;An adult ticket is NT$100 (Visitors can get a discount which equals of visitors’ spending from the canter. It cannot be changed in cash. Also, the ticket has to exchange a discount on that day.)</item>
+        <item>國道三號 : 下萬里交流道-左轉往金山、萬里方向-左轉武訓街 ( 大武崙工業區 )</item>
+        <item>Take Keelung bus 505 to Dawulun bus stop; get there about 15 minutes by foot.</item>
+    </string-array>
+    <string-array name="gt47">
+        <item>Qidu Station Railway Park</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Qidu old station, was built at Japanese colonial era, is located on Guangming Road. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Because Guangming Road was broadened, Qidu old station was almost removed. However, through the City Government urging, the station was rebuilt; also made Taiwan railway culture more abundant. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Besides, Qidu Station retains the wooden building, platform, and freight cars, with a Japanese garden, trail, and hand-painted locomotive installation art artwork added. Its nostalgic atmosphere attracts a large number of train buffs. The station building is usually open to visitors, allowing visitors to learn about its history. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224287664 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.23, Guangming Rd., Qidu Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道一號 : 五堵交流道下-左轉千祥橋-左轉堵南街-左轉實踐路-右轉崇禮街-左轉光明路</item>
+        <item>From Qidu Railway Station, follow Guangming Road to the park</item>
+    </string-array>
+    <string-array name="gt48">
+        <item>Ye-Shan Herbal Garden Recreational Farm</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ye-Shan Herbal Garden Recreational Farm is located at Qidu mountain area. The farm has more than 1700 kinds of herbal plants that the owner collected from the world. The garden also has more than 300 kinds of brake plant, which attracts many experts come for visit. It is a good place for recreation and education purpose. Ye-Shan Herbal Garden Recreational Farm grows medicinal herbs that proprietor has imported from all over the world, making it the medicinal herb treasure chest of Taiwan. Besides, the farm’s healthy meals are using seasonal medicinal plants cleverly combined with other ingredients. Among the creative dishes are President’s rice with Ganoderma lucidum flavor, sweet and roselle sour soy braised fish, and fresh and tasty Chinese wonton. \n Service Tel :\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224565075 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.43, Dacheng St., Qidu Dist., Keelung City, Taiwan (R.O.C.)
+        <item>國道三號 : 東西向快速公路萬里瑞濱線-七堵匝道-右轉大同街-靠左大華二路-右轉大成街-右轉一般道路</item>
+        <item>Take Keelung bus 701 to Manan Borough/ Gentleman Duck Villa bus stop; after crossing the bridge, it’s 5 minutes by foot.</item>
+    </item></string-array>
+        <string-array name="gt49">
+        <item>Tian-Cai Recreational Farm</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tian-Cai Recreational Farm is located on Qidu District, which is well known farm because the famous of Sweet Omanthus Trees, Green Bamboos, and Omanthus Bamboos. Therefore, the owner is also called it “King of bamboos” \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;From May to October every year, Tian-Cai Recreational Farm lets visitors have fun to digging up bamboo shoots; the autumn is the harvest time for pomelo. The farm also allows visitors to adopt a tree so they can enjoy taking care of and harvesting fruit from their own tree. Besides, dried bamboo shoot is the another agriculture product. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In addition, there are also fish ponds and tea plantations; the landscape of them is natural and vivid. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224310893 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.60, Datong St., Qidu Dist., Keelung City, Taiwan (R.O.C.) </item>
+        <item>國道三號 :下萬里交流道-左轉往金山、萬里方向-左轉武訓街 ( 大武崙工業區 )-右轉基金二路3巷-右轉碼東農路</item>
+        <item>Take Keelung bus 703 to No.60 Datong St. bus top; the farm is close to the bus stop</item>
+    </string-array>
+    <string-array name="gt50">
+        <item>Wen-liang Recreational Farm</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Wen-liang Leisure Recreational Farm is located at Maling recreational area of Qidu District. There are lots of cassia bamboo and green bamboo. Visitors can get funny experiences of pulling out bamboos.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The sweet green bamboos have been planted by the farmer, which won the awards of champion every year. Visitors can buy green bamboos souvenir gifts here in recreational farm. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Except for cassia bamboo and green bamboo, the farmer also plants mulberries, pomelos, tea leaves, red bayberries, and so on. In addition, the owner makes mulberry and red bayberry juice and tea oil so that visitors can purchase these products. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The other special product is red bayberry. Red bayberries are rare in Taiwan, but they planted more over than hundreds at Wen-liang Recreational Farm. When red bayberries begin to mature in May, visitors will always be attracted to here, and pick them by themselves. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Other than above activities, Wen-liang Recreational Farm also offers ecological interpretation, children’s fun DIY, idiom teaching, and happy family activities to attract visitors to come. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224310892 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.60 1, Datong St., Qidu Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;07:00~18:00 (Reservation by phone in advance) \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;free (Ecology guide interpreting is NT$100 of an adult)</item>
+        <item>國道三號 :下萬里交流道-左轉往金山、萬里方向-左轉武訓街 ( 大武崙工業區 )-右轉基金二路3巷-右轉碼東農路</item>
+        <item>Take Keelung bus 703 to No. 60 Datong Street bus stop; get there by foot.</item>
+    </string-array>
+    <string-array name="gt51">
+        <item>Longshun Tourist Orchard</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Longshun Tourist Orchard is located at Malingken, which mainly plants pomelo, wax apple, Chinese yam, oriental Sakura, green bamboo, sweet potato, granadilla, and Pitaya fruit. It is about 5 hectares. The orchard also has a variety of insects which is kids’ favorite. Besides, there are also hydrophytes such as water chestnuts and lotus. It’s an excellent place to sketch. In addition, Longshun Tourist Orchard mainly grows oranges and has a beetle observation area. Various family activities can be arranged on the farm, such as using the fronds of a common tree fern to grind sweet potato cakes. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224562053 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.63, Datong St., Qidu Dist., Keelung City, Taiwan (R.O.C.)</item>
+        <item>國道三號 :下萬里交流道-左轉往金山、萬里方向-左轉武訓街 ( 大武崙工業區 )-右轉基金二路3巷</item>
+        <item>Take Keelung bus 702 to No.63 Datong St. bus stop; the farm is close to the bus stop.</item>
+    </string-array>
+    <string-array name="gt52">
+        <item>Linglan Eco Farm</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Named after the owner, Linglan Recreational Farm is situated by the Malingkeng stream. Besides the scenic view and green surroundings, this is also a good place to play in the water and catch shrimps. This beautiful farm also offers many delicacies such as chicken, vegetables and fruits, special meals made from mountain products, and herbal chicken soup are all made with locally grown products. These delicacies can be considered as one of the features of Malingkeng. Karaoke is also available in the restaurant. This is a good place combining gourmet food, recreation and leisure.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Besides, there is lotus pond water park which is opposite Linglan Farm. The feature of water park is full of lotus.\n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224554569 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.104, Dahua 3rd Rd., Qidu Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;11:00~17:00(reservation in advance)</item>
+        <item>國道三號 : 接東西向快速公路萬里瑞濱線-七堵交流道-靠左大同街-右轉大華二路-靠左翠谷橋</item>
+        <item>Take Keelung bus 701 to Linglan Eco Farm bus stop and walk to the farm.</item>
+    </string-array>
+    <string-array name="gt53">
+        <item>Tiansian Temple, Heping Island</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;This temple is situated atop a hill on Heping Island. It has the best view on the whole island. It worships the five Wusianling Guan Dadi brothers. These are Dongfang Cingdi, Nanfang Chihdi, Sifang Baidi, Beifang Heidi, and Jhongyang Huangdi, all said to be very powerful gods. It is a very well known Taoist temple in the area. The square outside the temple has numerous Arhat statues, each about two meters tall. The temple has Indonesian royal objects that are 500 stone Arhat statues lining the square from the temple to the archway, each has a different pose and is imposing. The four-faced Buddha statue that is worshipped at the side of the temple is also a special feature. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224626801 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; No.118, Heping St., Zhongzheng Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;08:00~22:00</item>
+        <item>1.國道一號 : 往宜蘭方向行駛即可到達左轉北寧路(中正路方向)-右轉正濱路-下橋後右轉和平街-左轉一般道路\n2.國道3號 : 過大竿林隧道-下中和路匝道-右轉上西定高速道路-左轉中山一路-往宜蘭方向行駛-左轉北寧路(中正路方向)-右轉正濱路-下橋後右轉和平街-左轉一般道路</item>
+        <item>Driving along Zhongzheng Road (Provincial Route no. 2) and turn left at Zhengbing Road. After crossing Heping Bridge, the gate of Tianxian Temple is at the turn. Follow the signs to the temple. </item>
+     </string-array>
+     <string-array name="gt54">
+        <item>The Official Road of Hundred Years of Fude Temple</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ln. 49,Ai 3rd Rd., Ren’ai Dist is a official level road in Qin Dynasty and called it Qin official road. The Business is thriving and prosperous use Qin official road as center to extended around. In Qin Daoguan twenty nine years (1849), Jiang Cheng Hui built Fude Temple in the official road to worship the major god Fude. Fude street is called after Fude Temple. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The range of Qin official road included Ai 1st Rd, Ai 2nd Rd and Ai 3rd Rd. in the present. It is inferred that those roads are the path toward Tongpan shu (the present municipal government), and is the important path way to go from Taipei to Keelung. It is the starting point and development center of economic development in the Keelung District in the future. \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The official road of hundred years of Fude Temple, located in Qin official road, was built in Qin daoguan 29 years (1849). It becomes local citizens’ belief center, and is blessed for businessmen and visitors before going out on official road. The present temple has more than one hundred years of history and is a focus of local citizens’ belief. Small, but the temple is arranged gorgeously, and quite prosperous. The beams and front doors are blackened so it is apparent to see the believers’ worship in more than a hundred years.  \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Tu di Gong and Tu di Po are worshiped together in the Temple and The feature of the temple is different from other temples’. Besides, Master Tiger is also worshiped in the Tu di Gong temple. It is said it is very efficacious so it’s worth visiting. \n Service Tel : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+886224257937 \n Address of attraction : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No.11, Ln. 49, Ai 3rd Rd., Ren’ai Dist., Keelung City, Taiwan (R.O.C.) \n Opening hours : \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 06:00~17:00</item>
+        <item>1.國道一號 : 高速公路終點-右轉忠一路-右轉愛三路</item>
+        <item>1. Dong’an Multi-story Car Park in Ren 2nd Rd can accommodate 754 cars and 623 motorcycles. /n 2.Housing underground Car Park in Ai 3rd Rd can accommodate 233 cars.</item>
+     </string-array>
+    
+    <string-array name="gz">
+        <item>公尺</item>
+        <item>公里</item>
+    </string-array>
+    
+</resources>

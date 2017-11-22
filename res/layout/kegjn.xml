@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="392dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.44"
+                android:src="@drawable/kego" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.44"
+                android:text="        基隆位於臺灣北部，三面環山，僅北面一處有少量平原迎向大海，即為深水谷灣之基隆港。 港灣深入市區，水面寬闊，集商港、軍港、漁港於一身，為進入北臺灣門戶。
+
+由於地形受東北季風的影響，基隆的冬天經常多雨，平均溫度僅在攝氏22度左右，素有「雨港之都」之稱。基隆是雨港也是漁港，魚市的漁貨種類繁多，各地遠洋、近海的漁貨種類，當天現撈的鮮活漁貨，應有盡有，崁仔頂的魚市場可說是全臺灣最有活力、有趣的魚鮮拍賣交易場。
+
+在基隆火車站旁的小港碼頭可搭乘遊艇遊基隆港，沿岸景觀頗有可看之處，從大海看陸地山光水色，由各國駛進駛出之豪華客輪、郵輪的繁忙海港風情，湛藍的海水四季與基隆人共同生活，藍色公路之旅是正流行的親水休閒活動。
+
+清光緒年間，為了加強鞏固海防，因而在基隆地區留下了白米甕砲台、二砂灣砲台(海門天險)、大武崙砲台等戰時古蹟，在此遊山訪古，舊時激烈的戰況早已塵封，只見碉堡的雄偉景觀襯以一望無際的藍天碧海美景。
+
+數百年來，基隆出入過無數異國船隻，帶來了多元的文化與新知，是臺灣與國際交流的港口，更是臺灣歷史上重要的文化港都！巨舶輻輳的國際港市、熱鬧豐美的中元祭典、多樣精緻的廟口小吃以及砲台與隧道、岬角與灣澳、漁港和魚市……，走訪其間，令人流連忘返。" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
